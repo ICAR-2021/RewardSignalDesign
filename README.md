@@ -33,6 +33,7 @@ python -m pip install -e .
 ```
 python TestingScripts/TrainVehicles.py
 ```
+![Results](https://github.com/ICAR-2021/RewardSignalDesign/blob/645522f150d9ac1957336cf245b0135db8803f2b/Vehicles/ModEmp_porto_final/training_rewards.png)
 
 ## Citing
 If you have found our work helpful, please cite as:
