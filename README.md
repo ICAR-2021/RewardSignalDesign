@@ -20,18 +20,19 @@ This repo contains the code for the paper, ["From Navigation to Racing: Reward S
 - Steering punishment reward
 
 ## Installation
-- Requirements:
-  - PyTorch
-  - Numpy
-  - Matplotlib
-  - casadi 
-  - numba
-  - scipy
-- Installation
-  - clone the repo onto your computer
-  - navigate into the folder, ```cd RewardSignalDesign```
-  - install it using pip ```python3 -m pip install -e .```
-- Built on Linux Ubuntu system (20.04.2 LTS) using Python v3.8.5
+Tested on: Ubuntu 20.04.6, Python 3.8.10, pip 23.1.2.
+
+```
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install pyyaml==6.0
+python -m pip install -e .
+```
+
+## Usage
+```
+python TestingScripts/TrainVehicles.py
+```
 
 ## Citing
 If you have found our work helpful, please cite as:
