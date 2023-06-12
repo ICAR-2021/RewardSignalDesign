@@ -14,8 +14,8 @@ setup(
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[], # add any additional packages that 
-        # needs to be installed along with your package. Eg: 'caer'
+	install_requires=['torch==1.8.1', 'numpy==1.19.5', 'matplotlib==3.4.1', 'casadi==3.5.5',
+                      'numba==0.53.1', 'scipy==1.6.3'],
         
         keywords=['python', 'autonomous racing'],
         classifiers= [
