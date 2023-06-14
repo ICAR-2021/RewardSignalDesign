@@ -35,6 +35,20 @@ python TestingScripts/TrainVehicles.py
 ```
 ![Results](https://github.com/ICAR-2021/RewardSignalDesign/blob/645522f150d9ac1957336cf245b0135db8803f2b/Vehicles/ModEmp_porto_final/training_rewards.png)
 
+## Docker
+
+Prerequisites: [Docker](https://docs.docker.com/engine/install/ubuntu/), [OSRF Rocker](https://github.com/osrf/rocker)
+
+Build the image with:
+```
+docker build -t reward_signal_design .
+```
+
+Run a container with:
+```
+rocker --x11 --name reward_signal_design reward_signal_design
+```
+
 ## Citing
 If you have found our work helpful, please cite as:
 ```latex
